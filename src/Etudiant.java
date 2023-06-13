@@ -13,7 +13,7 @@ public class Etudiant {
     }
 
     // Méthodes pour afficher les informations de l'etudiant
-    public void afficherInformation() {
+    public void afficherInformation(){
         System.out.println("Nom de l'etudint : " + nom );
         System.out.println("L'age de l'etudiant : " + age);
         System.out.println("Le niveau de l'etudiant : " + niveau);
@@ -28,6 +28,20 @@ public class Etudiant {
 
     public String getNiveau(){
         return niveau;
+    }
+
+    public void age1() {
+        System.out.println(nom + " est adulte.");
+        System.out.println("********************************************");
+    }
+
+    public void age2() {
+        System.out.println(nom + " est mineur.");
+        System.out.println("********************************************");
+    }
+
+    public int getAge() {
+    return age;
     }
 
 }
